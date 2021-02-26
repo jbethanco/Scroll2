@@ -127,7 +127,6 @@ struct ContentView: View {
     }
     func offsetChanged(point: CGPoint) {
         xOffset = point.x
-        print(point)
     }
 }
 
